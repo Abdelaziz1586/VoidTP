@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VoidTP:jar">
+    <output-path>$PROJECT_DIR$/../Servers/1.20.1_server/plugins</output-path>
+    <root id="archive" name="VoidTP.jar">
+      <element id="module-output" name="VoidTP" />
+    </root>
+  </artifact>
+</component>

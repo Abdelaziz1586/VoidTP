@@ -1,0 +1,8 @@
+messages:
+  no-permission: "&fYou have no permission to do this"
+  reloaded: "&fPlugin reloaded"
+  teleported: "&fYou have falled or jumped into the void so you were teleported to spawnpoint"
+  in-disabled-world: "&fYou have fallen or jumped into the void but you haven't been teleported as this world is not in the allowed worlds for teleport."
+
+allowed-worlds:
+  - world
