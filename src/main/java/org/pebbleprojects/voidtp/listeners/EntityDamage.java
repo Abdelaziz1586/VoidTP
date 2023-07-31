@@ -43,12 +43,15 @@ public class EntityDamage implements Listener {
                     }, 1);
 
 
-                    entity.sendMessage("why are you gay?");
+                    entity.sendMessage(Handler.INSTANCE.getConfig("messages.teleported", true).toString());
 
                     final int i = cooldown.size()-1;
 
                     Bukkit.getScheduler().runTaskLater(VoidTP.INSTANCE, () -> cooldown.remove(i), 1);
+                    return;
                 }
+
+                entity.sendMessage(Handler.INSTANCE.getConfig("messages.in-disabled-world", true).toString());
             }
         }
     }
